@@ -1,0 +1,18 @@
+# Maven build outputs
+target/
+
+# IDE configurations
+.idea/
+.vscode/
+*.iml
+
+# Compiled outputs and archives
+*.jar
+*.class
+*.zip
+*.tar.gz
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db

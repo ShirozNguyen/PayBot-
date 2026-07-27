@@ -1,0 +1,22 @@
+name: PayBotPlusPlus
+version: '1.0.0'
+main: com.paybotpp.PayBotPlusPlusPlugin
+api-version: '1.18'
+folia-supported: true
+description: 'Plugin mở rộng mốc nạp cá nhân và mốc nạp toàn server tích hợp trực tiếp với PayBot.'
+author: Shiroz
+
+depend: []
+softdepend: [PayBot, PlaceholderAPI]
+
+commands:
+  paybotpp:
+    description: Lệnh quản trị chính cho PayBot++
+    aliases: [paybotplus, pbpp]
+    permission: paybotpp.admin
+    usage: /<command> [single|global|reload|status]
+
+permissions:
+  paybotpp.admin:
+    description: Quyền quản trị và cấu hình các mốc nạp PayBot++
+    default: op
