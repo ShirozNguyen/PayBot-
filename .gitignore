@@ -1,6 +1,11 @@
 # Maven build outputs
 target/
 
+# Log and documentation files
+CHANGELOG.md
+LOG.md
+DESCRIPTION.md
+
 # IDE configurations
 .idea/
 .vscode/
